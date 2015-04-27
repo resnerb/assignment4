@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="fetch.js"></script>
 </head>
 
 <body>
@@ -15,16 +16,16 @@
         <input type="radio" name="language" value="Python">
             Python
         <input type="text" name="text_input">
-        <input type="submit" value="Fetch Gists">
+            <input type="submit" value="Fetch Gists" onclick="fetchData()">
     </fieldset>
     <div id="divs">
         <div id="div1">
             <h1>GISTS</h1>
-            <p>this div id is: gists</p>
+            <ul id="gistList" style="list-style: none;"></ul>
         </div>
         <div id="div2">
             <h2>Favorite GISTS</h2>
-            <p>this div id is: favorite gists</p>
+            <ul id="favGistList" style="list-style: none;"></ul>
         </div>
     </div>
 </body>
