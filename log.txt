@@ -1,0 +1,3 @@
+Start: Sun, 26 Apr 2015 09:00:00 -0800
+End: Sun, 26 Apr 2015 23:15:00 -0800
+Tasks: During this time I continuously worked on all parts of the assignment. Trying my best to get fetch.js to work properly.
